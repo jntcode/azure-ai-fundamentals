@@ -2,129 +2,129 @@
 
 ## Projeto de Estudo - Microsoft Learn AI Fundamentals
 
-Este repositorio documenta os conceitos fundamentais de Inteligencia Artificial aprendidos atraves do Microsoft Learn, focando em **Speech Analysis** e **Language/Sentiment Analysis**.
+Este repositório documenta os conceitos fundamentais de Inteligência Artificial aprendidos através do Microsoft Learn, focando em **Speech Analysis** e **Language/Sentiment Analysis**.
 
 ---
 
 ## 🎯 Objetivo
 
-Documentar e consolidar o conhecimento sobre servicos de IA do Azure, especificamente:
-- **Speech Studio** - Analise de voz e transcricao de audio
-- **Language Studio** - Analise de sentimento e procesamento de linguagem natural
+Documentar e consolidar o conhecimento sobre serviços de IA do Azure, especificamente:
+- **Speech Studio** - Análise de voz e transcrição de áudio
+- **Language Studio** - Análise de sentimento e processamento de linguagem natural
 
 ---
 
-## 📚 Conteudo
+## 📚 Conteúdo
 
-### 1. Speech Studio (Analise de Voz)
+### 1. Speech Studio (Análise de Voz)
 
-O Azure Speech Studio oferece servicos de conversao de audio em texto e reconhecimento de voz.
+O Azure Speech Studio oferece serviços de conversão de áudio em texto e reconhecimento de voz.
 
 #### Principais Funcionalidades
 
-| Servico | Descricao | Uso Comum |
+| Serviço | Descrição | Uso Comum |
 |---------|-----------|-----------|
-| **Speech-to-Text** | Converte audio em texto | Transcricao de reunioes, legendas automaticas |
+| **Speech-to-Text** | Converte áudio em texto | Transcrição de reuniões, legendas automáticas |
 | **Text-to-Speech** | Converte texto em voz | Assistentes virtuais, audiolivros |
-| **Speaker Recognition** | Identifica quem esta falando | Autenticacao por voz, analise de participantes |
-| **Translation** | Traduz audio em tempo real | Comunicacao internacional |
+| **Speaker Recognition** | Identifica quem está falando | Autenticação por voz, análise de participantes |
+| **Translation** | Traduz áudio em tempo real | Comunicação internacional |
 
 #### Conceitos Chave
 
-- **Transcricao Automatizada**: Conversao automatica de audio para texto
-- **Reconhecimento de Fala**: Identificacao de palavras e frases em tempo real
-- **Diarizacao de Falante**: Identificacao de diferentes falantes em um audio
-- **Processamento de Audio**: Melhoria de qualidade e remocao de ruido
+- **Transcrição Automatizada**: Conversão automática de áudio para texto
+- **Reconhecimento de Fala**: Identificação de palavras e frases em tempo real
+- **Diarização de Falante**: Identificação de diferentes falantes em um áudio
+- **Processamento de Áudio**: Melhoria de qualidade e remoção de ruído
 
 ---
 
-### 2. Language Studio (Analise de Linguagem)
+### 2. Language Studio (Análise de Linguagem)
 
-O Azure Language Studio fornece ferramentas para analise de texto e extracao de informacoes.
+O Azure Language Studio fornece ferramentas para análise de texto e extração de informações.
 
 #### Principais Funcionalidades
 
-| Servico | Descricao | Exemplo |
+| Serviço | Descrição | Exemplo |
 |---------|-----------|---------|
-| **Sentiment Analysis** | Analise de sentimento | Avaliar opinioes de clientes |
-| **Key Phrase Extraction** | Extracao de frases-chave | Resumir documentos |
+| **Sentiment Analysis** | Análise de sentimento | Avaliar opiniões de clientes |
+| **Key Phrase Extraction** | Extração de frases-chave | Resumir documentos |
 | **Named Entity Recognition (NER)** | Reconhecimento de entidades | Extrair nomes, datas, locais |
-| **Entity Linking** | Vinculacao de entidades | Conectar mencoes a entidades conhecidas |
-| **Language Detection** | Deteccao de idioma | Identificar o idioma do texto |
+| **Entity Linking** | Vinculação de entidades | Conectar menções a entidades conhecidas |
+| **Language Detection** | Detecção de idioma | Identificar o idioma do texto |
 
 #### Análise de Sentimento
 
-A analise de sentimento classifica texto em categorias:
+A análise de sentimento classifica texto em categorias:
 
-- **Positivo** 😊 - Avaliacoes favoraveis, elogios
-- **Negativo** 😞 - Criticas, reclamacoes
+- **Positivo** 😊 - Avaliações favoráveis, elogios
+- **Negativo** 😞 - Críticas, reclamações
 - **Neutro** 😐 - Informativo, sem carga emocional
-- **Misto** 🔄 - Combinacao de sentimentos positivos e negativos
+- **Misto** 🔄 - Combinação de sentimentos positivos e negativos
 
-##### Exemplo de Analise
+##### Exemplo de Análise
 
 ```
-Texto: "O produto e otimo, mas o atendimento foi muito lento"
+Texto: "O produto é ótimo, mas o atendimento foi muito lento"
 
 Sentimento: Misto
-- Positivo: "otimo" (confianca: 0.95)
-- Negativo: "lento" (confianca: 0.87)
+- Positivo: "ótimo" (confiança: 0.95)
+- Negativo: "lento" (confiança: 0.87)
 ```
 
-#### Aplicacoes Reais
+#### Aplicações Reais
 
 1. **Atendimento ao Cliente**
    - Analisar feedback de chatbots
    - Priorizar tickets com sentimento negativo
-   - Monitorar satisfacao em tempo real
+   - Monitorar satisfação em tempo real
 
 2. **Redes Sociais**
-   - Monitorar opiniao publica
-   - Detectar crises de reputacao
+   - Monitorar opinião pública
+   - Detectar crises de reputação
    - Analisar engajamento
 
 3. **Pesquisa de Mercado**
-   - Processar avaliacoes de produtos
-   - Identificar tendencias
+   - Processar avaliações de produtos
+   - Identificar tendências
    - Comparar com concorrentes
 
 ---
 
 ## 🔧 Ferramentas Utilizadas
 
-- **Azure Speech Studio** - Para experimentacao de servicos de voz
-- **Azure Language Studio** - Para experimentacao de analise de linguagem
+- **Azure Speech Studio** - Para experimentação de serviços de voz
+- **Azure Language Studio** - Para experimentação de análise de linguagem
 - **Microsoft Learn** - Plataforma de aprendizado
 
 ---
 
-## 📖 Referencias
+## 📖 Referências
 
 - [Microsoft Learn - AI Fundamentals](https://learn.microsoft.com/pt-br/training/paths/get-started-with-artificial-intelligence-on-azure/)
 - [Azure Speech Studio](https://speech.microsoft.com/)
 - [Azure Language Studio](https://language.cognitive.microsoft.com/)
-- [Documentacao Azure AI](https://learn.microsoft.com/pt-br/azure/ai-services/)
+- [Documentação Azure AI](https://learn.microsoft.com/pt-br/azure/ai-services/)
 
 ---
 
-## 🤝 Contribuicao
+## 🤝 Contribuição
 
-Este e um projeto de estudo pessoal. Sinta-se livre para:
-- Fork do repositorio
-- Criar issues com sugestoes
+Este é um projeto de estudo pessoal. Sinta-se livre para:
+- Fork do repositório
+- Criar issues com sugestões
 - Enviar pull requests com melhorias
 
 ---
 
 ## 📝 Notas
 
-- Os servicos Azure exigem assinatura para uso em producao
-- O Microsoft Learn oferece creditos gratuitos para experimentacao
-- Os labaratorios sao interativos e permitem testes em tempo real
+- Os serviços Azure exigem assinatura para uso em produção
+- O Microsoft Learn oferece créditos gratuitos para experimentação
+- Os laboratórios são interativos e permitem testes em tempo real
 
 ---
 
-## 📅 Data de Criacao
+## 📅 Data de Criação
 
 Setembro 2026
 
